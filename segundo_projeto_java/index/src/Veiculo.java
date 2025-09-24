@@ -2,6 +2,7 @@ public class Veiculo {
     private Integer id;
     private String placa;
     private String nome;
+    private Fabricante fabricante;
     private Integer modelo;
     private Integer ano;
 
@@ -23,6 +24,12 @@ public class Veiculo {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    public Fabricante getFabricante() {
+        return fabricante;
+    }
+    public void setFabricante(Fabricante fabricante) {
+        this.fabricante = fabricante;
     }
     public Integer getModelo() {
         return modelo;
