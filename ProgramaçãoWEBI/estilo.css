@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #3a372f;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    color: #3a372f;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #898276;
+}
+
+header {
+    height: 15vh;
+    display: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+main {
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav.menu-principal h3 {
+    text-align: center;
+}
+
+nav.menu-principal {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+section.area-conteudo {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.menu-principal {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-principal a {
+    text-decoration: none;
+    color: #3a372f;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #3a372f;
+}
+
+.menu-principal a:hover {
+    background-color: #bbb3ae;
+}
+
+form {
+    width: 400px;
+    margin: 25px auto;
+    padding: 24px 28px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #3a372f;
+    margin-bottom: 18px;
+    font: arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    color: #3a372f;
+    font-weight: 500;
+    font: arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #3a372f;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 24px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"] {
+    background: #3a372f;
+    color: #fff;
+}
+
+button[type="submit"]:hover {
+    background: #585850;
+}
+
+button[type="reset"] {
+    background: #e0e0e0;
+    color: #3a372f;
+}
+
+button[type="reset"]:hover {
+    background: #c7c7c7;
+}
